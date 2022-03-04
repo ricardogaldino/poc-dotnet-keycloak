@@ -1,0 +1,20 @@
+version: '3'
+
+services:
+    keycloak:
+        image: quay.io/keycloak/keycloak:latest
+        container_name: "keycloak"
+        hostname: "keycloak"
+        environment:
+            DB_VENDOR: h2
+            KEYCLOAK_ADMIN: admin
+            KEYCLOAK_ADMIN_PASSWORD: admin
+        entrypoint: ["/opt/keycloak/bin/kc.sh", "start-dev"]
+        ports:
+            - 8080:8080
+        networks:
+            - keycloak_net
+
+networks:
+    keycloak_net:
+        driver: bridge

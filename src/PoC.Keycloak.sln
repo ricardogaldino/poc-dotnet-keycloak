@@ -1,0 +1,75 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{4E366360-9FCC-4C66-B847-17CF9BF0DF7A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PoC.Keycloak.Web.Api", "Presentation\PoC.Keycloak.Web.Api\PoC.Keycloak.Web.Api.csproj", "{E7343DF2-B213-40A6-98A5-FDAB334D6AC8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{9FAAC26F-898E-48FE-A9BA-E0F857F5DFC0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PoC.Keycloak.App.Interfaces", "Application\PoC.Keycloak.App.Interfaces\PoC.Keycloak.App.Interfaces.csproj", "{C0263B2E-1CDB-49D6-9F50-644523894B9D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PoC.Keycloak.App.UseCases", "Application\PoC.Keycloak.App.UseCases\PoC.Keycloak.App.UseCases.csproj", "{07E85566-BE08-4D4A-A779-8B0E08906DA1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{61FA4900-2BBA-4683-9721-FA9E953D21FD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PoC.Keycloak.Domain.Entities", "Domain\PoC.Keycloak.Domain.Entities\PoC.Keycloak.Domain.Entities.csproj", "{F4D6A631-7CE5-4214-8075-22A2E44B779F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{BDF666CC-7322-40A6-878C-7B401F4183DE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PoC.Keycloak.Infra.IoC", "Infrastructure\PoC.Keycloak.Infra.IoC\PoC.Keycloak.Infra.IoC.csproj", "{F97F7622-5022-4170-99A9-6712015B55BE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PoC.Keycloak.Infra.Data", "Infrastructure\PoC.Keycloak.Infra.Data\PoC.Keycloak.Infra.Data.csproj", "{5205190A-CF67-4315-8FC0-78B29F4BB56F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PoC.Keycloak.Infra.Externals", "Infrastructure\PoC.Keycloak.Infra.Externals\PoC.Keycloak.Infra.Externals.csproj", "{0417F487-5D95-47E3-86EF-2A6EB8C8EAAA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E7343DF2-B213-40A6-98A5-FDAB334D6AC8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7343DF2-B213-40A6-98A5-FDAB334D6AC8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E7343DF2-B213-40A6-98A5-FDAB334D6AC8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E7343DF2-B213-40A6-98A5-FDAB334D6AC8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C0263B2E-1CDB-49D6-9F50-644523894B9D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0263B2E-1CDB-49D6-9F50-644523894B9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0263B2E-1CDB-49D6-9F50-644523894B9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0263B2E-1CDB-49D6-9F50-644523894B9D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{07E85566-BE08-4D4A-A779-8B0E08906DA1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07E85566-BE08-4D4A-A779-8B0E08906DA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07E85566-BE08-4D4A-A779-8B0E08906DA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07E85566-BE08-4D4A-A779-8B0E08906DA1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F4D6A631-7CE5-4214-8075-22A2E44B779F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4D6A631-7CE5-4214-8075-22A2E44B779F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4D6A631-7CE5-4214-8075-22A2E44B779F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4D6A631-7CE5-4214-8075-22A2E44B779F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F97F7622-5022-4170-99A9-6712015B55BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F97F7622-5022-4170-99A9-6712015B55BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F97F7622-5022-4170-99A9-6712015B55BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F97F7622-5022-4170-99A9-6712015B55BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5205190A-CF67-4315-8FC0-78B29F4BB56F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5205190A-CF67-4315-8FC0-78B29F4BB56F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5205190A-CF67-4315-8FC0-78B29F4BB56F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5205190A-CF67-4315-8FC0-78B29F4BB56F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0417F487-5D95-47E3-86EF-2A6EB8C8EAAA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0417F487-5D95-47E3-86EF-2A6EB8C8EAAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0417F487-5D95-47E3-86EF-2A6EB8C8EAAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0417F487-5D95-47E3-86EF-2A6EB8C8EAAA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E7343DF2-B213-40A6-98A5-FDAB334D6AC8} = {4E366360-9FCC-4C66-B847-17CF9BF0DF7A}
+		{C0263B2E-1CDB-49D6-9F50-644523894B9D} = {9FAAC26F-898E-48FE-A9BA-E0F857F5DFC0}
+		{07E85566-BE08-4D4A-A779-8B0E08906DA1} = {9FAAC26F-898E-48FE-A9BA-E0F857F5DFC0}
+		{F4D6A631-7CE5-4214-8075-22A2E44B779F} = {61FA4900-2BBA-4683-9721-FA9E953D21FD}
+		{F97F7622-5022-4170-99A9-6712015B55BE} = {BDF666CC-7322-40A6-878C-7B401F4183DE}
+		{5205190A-CF67-4315-8FC0-78B29F4BB56F} = {BDF666CC-7322-40A6-878C-7B401F4183DE}
+		{0417F487-5D95-47E3-86EF-2A6EB8C8EAAA} = {BDF666CC-7322-40A6-878C-7B401F4183DE}
+	EndGlobalSection
+EndGlobal

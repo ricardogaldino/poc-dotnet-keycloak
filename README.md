@@ -1,2 +1,1 @@
-# Keycloak - Open Source Identity and Access Management
-https://www.keycloak.org/ <br/>
+# PoC Keycloak with C# (.NET)
